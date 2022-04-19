@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.annuairedecontact.MainActivity">
+    <group>
+        <item
+            android:id="@+id/save"
+            android:icon="@drawable/save"
+            android:title="Save"
+            app:showAsAction="ifRoom|collapseActionView" />
+        <item
+            android:id="@+id/reload"
+            android:icon="@drawable/refresh"
+            android:title="Empty"
+            app:showAsAction="ifRoom|collapseActionView" />
+    </group>
+</menu>
